@@ -2,8 +2,6 @@
 
 ## This simple bank system consists of several subprograms to breaking down this large problem into smaller modules
 
-
-'''python
 # For validating username and password; it takes name, password, and a dictionary as its arguments
 def validator(name, passw, reg_users_and_password):
     if name in reg_users_and_password.keys():
@@ -87,4 +85,3 @@ while True:
     if choice.lower() == "n":
         print("Thanks for your time!")
         break
-```
